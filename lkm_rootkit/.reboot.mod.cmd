@@ -1,0 +1,1 @@
+savedcmd_/home/kali/allan_python/lkm_rootkit/reboot.mod := printf '%s\n'   reboot.o | awk '!x[$$0]++ { print("/home/kali/allan_python/lkm_rootkit/"$$0) }' > /home/kali/allan_python/lkm_rootkit/reboot.mod

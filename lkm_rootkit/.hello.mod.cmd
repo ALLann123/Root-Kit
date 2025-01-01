@@ -1,0 +1,1 @@
+savedcmd_/home/kali/allan_python/lkm_rootkit/hello.mod := printf '%s\n'   hello.o | awk '!x[$$0]++ { print("/home/kali/allan_python/lkm_rootkit/"$$0) }' > /home/kali/allan_python/lkm_rootkit/hello.mod

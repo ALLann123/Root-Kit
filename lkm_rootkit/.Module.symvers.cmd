@@ -1,0 +1,1 @@
+savedcmd_/home/kali/allan_python/lkm_rootkit/Module.symvers :=  scripts/mod/modpost -M -m       -o /home/kali/allan_python/lkm_rootkit/Module.symvers -T /home/kali/allan_python/lkm_rootkit/modules.order -i Module.symvers -e 
